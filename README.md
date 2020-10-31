@@ -1,2 +1,2 @@
 # Tarea01-Aspects
-Aspectos - Interfaz gráfica
+Aspects - Observer - GUI
