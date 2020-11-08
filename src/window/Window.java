@@ -14,7 +14,7 @@ public class Window {
 
     private Scene scene;
     private VBox root;
-    private VBox cuadro;
+    private Label cuadro;
     final String[] COLORS = {"Skyblue", "Yellow", "Palegreen"};
     static String currentColor;
 
@@ -28,7 +28,7 @@ public class Window {
         title.setFont(Font.font("Californian FB", FontPosture.ITALIC, 25));
         title.setTextFill(Color.PURPLE);
         HBox buttons = createButtons();
-        cuadro = new VBox();
+        cuadro = new Label("0");
         cuadro.setAlignment(Pos.CENTER);
         VBox vb = new VBox(title, buttons, cuadro);
         vb.setSpacing(30);
@@ -68,7 +68,7 @@ public class Window {
         return root;
     }
 
-    public VBox getCuadro() {
+    public Label getCuadro() {
         return cuadro;
     }
 
