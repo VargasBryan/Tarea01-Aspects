@@ -1,7 +1,7 @@
 # Tarea01-Aspects
 Aspects - Observer - GUI
 
-La acción de los botones funcionan como objeto observado por lo que al realizarse la acción se llama al método changeColor().
+La acción de los botones funcionan como sujeto observado, al realizarse la acción se llama al método changeColor().
 
 El botón del color azul es observado por el aspecto callChange2()
 El botón del color amarillo es observado por el aspecto callChange2() y callChange3();
